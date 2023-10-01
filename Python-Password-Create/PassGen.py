@@ -17,8 +17,8 @@ with open('passwords.txt', 'a') as f:
     original_stdout = sys.stdout
     sys.stdout = f
 
-    print(f"Nimi: {password_name}")
-    print(f"Salasana: {password}")
+    print(f"Name: {password_name}")
+    print(f"Password: {password}")
     print("----------------------------------------------------------\n")
 
     sys.stdout = original_stdout
